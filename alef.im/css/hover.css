@@ -1,0 +1,57 @@
+@media (min-width: 1600px) {
+    .item__link:hover {
+        color: var(--btn-no-active);
+    }
+
+    .alert__tel:hover {
+        color: var(--btn-no-active);
+    }
+
+    .content__main-mobile:hover .burg {
+        background-color: var(--main-color);
+    }
+
+    .content__main-mobile:active .burg {
+        background-color: var(--active-color);
+    }
+
+    .content__main-mobile:hover .burg:nth-child(2) {
+        width: 25px;
+    }
+
+    .content__main-mobile:hover .burg:nth-child(3) {
+        width: 18px;
+    }
+
+    .mobile__burger:not(:last-child) {
+        margin-bottom: 7px;
+    }
+
+    .sorting-btn:hover {
+        color: var(--btn-no-active);
+    }
+
+    .item__like:hover {
+        opacity: 0.8;
+    }
+
+    .no-active:hover {
+        background-color: var(--active);
+    }
+
+    .btn-more:hover {
+        box-shadow: 0 0 33px -5px rgba(34, 60, 80, 0.2);
+    }
+
+    .form__btn:hover {
+        background-color: var(--active);
+    }
+
+    .btn__up:hover {
+        background-color: transparent;
+    }
+
+    .btn__up:hover svg path {
+        fill: var(--btn-no-active);
+    }
+}
